@@ -26,11 +26,11 @@ path: http://localhost:8000
 ### JWT Authentication Routes
 ### Login
 ``` bash
-GET api/login
+POST api/login
 ```
 ### Register
 ``` bash
-GET api/register
+POST api/register
 ```
 ### Logout
 ``` bash
@@ -44,7 +44,7 @@ GET api/students
 ```
 ### Create/add student
 ``` bash
-GET api/student/create
+POST api/student/create
 ```
 ### Details of a student
 ``` bash
@@ -52,11 +52,11 @@ GET api/student/1
 ```
 ### Update student
 ``` bash
-GET api/student/update/1
+PUT api/student/update/1
 ```
 ### Delete student
 ``` bash
-GET api/student/delete/1
+DELETE api/student/delete/1
 ```
 ### Find Students
 ``` bash
